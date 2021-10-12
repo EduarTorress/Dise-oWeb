@@ -1,0 +1,60 @@
+h4,a{
+    color:white;
+    line-height: 150%;
+
+}
+li{
+    color:white;
+}
+h1{
+    color:rgb(85, 85, 85);    
+}
+h2{
+    color:red;
+}
+header{
+    grid-area:my-header;
+    background-color: white;
+}
+nav{
+    grid-area: my-nav;
+    background-color: rgb(85, 85, 85); 
+    text-align: center; 
+    border: 2px solid black;
+}
+section{
+    grid-area: my-section;
+    background-color: rgb(216, 216, 216);
+    color:black;
+    border: 6px solid rgb(38, 38, 77);
+}
+aside{
+    text-align: center; 
+    grid-area: my-aside;
+    background-color: rgb(146, 52, 146);
+    border: 2px solid black;
+}
+
+footer{
+    grid-area: my-footer;
+    background-color: rgb(184, 102, 216);
+    border: 2px solid black;
+}
+.grid {
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+}
+
+@media(min-width:10px) and (max-width:600px){
+    .grid{
+        grid-template-columns: 55% 35%;
+        grid-template-rows: 150px 250px 1fr 100px ;
+        grid-template-areas: " my-header my-header"
+         "my-nav my-nav" "my-section my-aside" "my-footer my-footer";
+    }
+}
