@@ -1,0 +1,21 @@
+#caja1{
+background-color: red;
+color:white;
+font-size:xx-large;
+}
+#caja2{
+background-color: rgb(122, 129, 133);
+color:white;
+}
+#caja3{
+color:rgb(122, 129, 133);
+}
+#caja4{
+float:right;
+}
+h4{
+    color:red;
+}
+h3{
+    color:black;
+}
