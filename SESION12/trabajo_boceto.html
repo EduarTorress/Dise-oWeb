@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/DA.png">
+    <link rel="icon" href="img/DA.png">
+    
+    <title>ENCUESTA CINEMATOGRÁFICA</title>
+</head>
+
+<body style="color:green">
+    <div id="Contenedor1">
+        <h2 align="center">
+            
+            <img src="img/DA.png" alt="El Oscar" style="height:70px" align=left>
+            Encuesta de Cine: Nominadas al Oscar 2018
+            <img src="img/DA.png" alt="El Oscar" style="height:70px"  align=right>
+        </h2><br><hr>
+        
+        
+        <form id="Formulario1" name="Formulario1" method="post" action="data.php">
+            <fieldset id="Datos_Personales">
+                <legend>Datos Personales</legend>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" name="Nombre" id=Nombre> <br>
+                <label for="Dni">DNI</label><br>
+                <input type="text" name="Dni" id="Dni" maxlength="9"><br>
+                <label for="Edad">Edad</label><br>
+                <input type="text" name="Edad" id="Edad" size="2" maxlength="2"><br>
+                <label for="Sexo">Sexo</label><br>
+                <select name="Sexo">
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                </select>
+        </form>
+    </div>
+    <pre></pre>
+
+
+
+    <div id="Contenedor2">
+        <form id="Formulario2" name="Formulario2" method="post" action="data.php">
+            <fieldset id="Peliculas">
+                <legend>Mejor Pelicula</legend>
+                <input type="checkbox" name="Pelicula01">Pelicula 01<br>
+                <input type="checkbox" name="Pelicula02">Pelicula 02<br>
+                <input type="checkbox" name="Pelicula03">Pelicula 03<br>
+        </form>
+    </div>
+
+    <pre></pre>
+
+    <div id="Contenedor3">
+        <form id="Formulario3" name="Formulario3" method="post" action="data.php">
+            <fieldset id="Peliculas_No_Vistas">
+                <legend>Selecciona las peliculas que no hayas visto:</legend>
+                <input type="checkbox" name="Pelicula01">Pelicula 01<br>
+                <input type="checkbox" name="Pelicula02">Pelicula 02<br>
+                <input type="checkbox" name="Pelicula03">Pelicula 03<br>
+                <input type="checkbox" name="Pelicula04">Pelicula 04<br>
+                <input type="checkbox" name="Pelicula05">Pelicula 05<br>
+        </form>
+    </div>
+
+    <div id="contenedor4">
+        <form id="Formulario4" name="Formulario4" method="post" action="data.php"></form>
+        <fieldset id="Argumento_Peliculas">
+        <legend>Argumento de la pelicula que mas te gusta</legend>
+        <textarea name="Argumento"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary">Enviar Formulario</button>
+    <button type="button" class="btn btn-warning">Borrar</button>
+</body>
+
+</html> 
+
+
+
+
+	
+   
+    
