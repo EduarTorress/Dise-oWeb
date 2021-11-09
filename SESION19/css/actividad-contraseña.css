@@ -1,0 +1,10 @@
+div{
+    align-content: center;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+h2,h1{
+    text-align: center;
+}

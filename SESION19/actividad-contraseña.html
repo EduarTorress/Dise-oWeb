@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript" src="js/actividad-contraseña.js"></script>
+    <link rel="stylesheet" href="css/actividad-contraseña.css">
+    <title>Activida de contraseña</title>
+</head>
+
+<body>
+    <div>
+        <h1>Confirmación de Grupo</h1>
+        <script>
+            function ConfirmacionYSuma() {
+
+                var mensaje = confirm("¿Perteneces al grupo N°6?");
+
+                if (mensaje) {
+                    alert("¡Eres parte del grupo N°6!");
+                    let numA = prompt("Ingrese un numero para sumar")
+                    let numB = prompt("Ingrese otro numero para sumar")
+
+                    let sumar = function (a, b) {
+                        let sumatoria = parseInt(a) + parseInt(b);
+                        return sumatoria
+                    }
+                    document.write("La suma es: " + sumar(numA, numB)+"<br>"+"Felicitaciones, ingresaste al grupo");
+                }
+                else {
+                    alert("¡No eres parte del grupo N°6!");
+                }
+            }
+        </script>
+        <input type="button" onclick="ConfirmacionYSuma()" value="Confirmar">
+        <br><br>
+    </div>
+</body>
+
+</html>
