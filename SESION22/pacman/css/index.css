@@ -1,0 +1,132 @@
+img{
+    position: relative;
+    top:50px;
+    left:450px;
+}
+header{
+    color: white;
+    background-color: rgb(77, 77, 199);
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.pacman{
+    background: #9a00db;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    z-index:1;
+}
+@keyframes animar{
+    0%{
+        left: 550px;
+        top: 380px;
+    } 
+    7%{
+        left: 59rem;
+        top: 24rem;        
+    }
+    13%{
+        left: 59rem;
+        top: 16.5rem;   
+    }
+    19%{
+        left: 36.6rem;
+        top: 16.5rem;    
+        color:#9b59b6;    
+    }  
+    27%{
+        left: 36.6rem;
+        top: 12.5rem;    
+        color:#9b59b6;    
+    }  
+    37%{
+        left: 30.6rem;
+        top: 12.5rem;    
+        color:#9b59b6;    
+    }       
+    45%{
+        left: 30.6rem;
+        top: 27.8rem;    
+        color:#9b59b6;    
+    }   
+    48%{
+        left: 36.6rem;
+        top: 27.8rem;    
+        color:#9b59b6;    
+    }
+    57%{
+        left: 36.6rem;
+        top: 23.8rem;    
+        color:#9b59b6;    
+    } 
+    62%{
+        left: 57rem;
+        top: 23.8rem;    
+        color:#9b59b6;    
+    }   
+    70%{
+        left: 57rem;
+        top: 27.8rem;    
+        color:#9b59b6;    
+    } 
+    76%{
+        left: 62.6rem;
+        top: 27.8rem;    
+        color:#9b59b6;    
+    }
+    81%{
+        left: 62.6rem;
+        top: 12.5rem;  
+        color:#9b59b6;    
+    }
+    86%{
+        left: 57rem;
+        top: 12.5rem;  
+        color:#9b59b6;    
+    }
+    90%{
+        left: 57rem;
+        top: 16.5rem; 
+        color:#9b59b6;    
+    }
+    96%{
+        left: 34.6rem;
+        top: 16.5rem;    
+        color:#9b59b6;    
+    }
+    100%{
+        left: 550px;
+        top: 380px; 
+        color:#9b59b6;    
+    }   
+}
+.pacman1{
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    border-left: 25px solid yellow;
+    border-top: 25px solid yellow;
+    border-right: 25px solid rgb(77, 77, 199);
+    border-bottom: 25px solid yellow;
+    position: relative;
+    top:-70px;
+    left:10px;   
+}
+.pacman2{
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    border-left: 25px solid yellow;
+    border-top: 25px solid yellow;
+    border-right: 25px solid rgb(77, 77, 199);
+    border-bottom: 25px solid yellow;
+    position: relative;
+    top: -110px;
+    left: 95%;   
+}
