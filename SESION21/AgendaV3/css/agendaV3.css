@@ -5,84 +5,85 @@ span{
     padding-left: 4px;
 }
 .nom{
-    background-color: rgb(139, 139, 139);
-    
+    background-color: rgb(139, 139, 139);   
     color: white;
 }
-
 .nom2{
-    background-color: rgb(139, 139, 139);
-    
+    background-color: rgb(139, 139, 139);    
     color: white;
-    width: 178px;
+    width: 188px;
 }
-
 .nom3{
-    background-color: rgb(139, 139, 139);
-    
+    background-color: rgb(139, 139, 139);    
     color: white;
-    width: 155px;
+    width: 36.8%;
 }
-
 .titu{
     background-color: #0df39b;
     border: black 1px solid;
 }
-
 li{
     list-style: none;
-    margin-top: 1px;
-    left: -50%;    
-    width: 550px;
+    margin-top: 1px;  
+    width: 100%;
 }
-
 ul{
     margin: 0px;
     padding-left: 0px;
 }
-
 #contenedor{
-    width: 600px;
+    width: 850px;
     margin: auto;
     background-color: floralwhite;
     padding-left: 10px;
     font-family: calibri;    
 }
-
 .titu2{
     width: 180px;
     background-color: #0df39b;
     border: black 1px solid;
 }
-
 .titu3{
-    width: 146px;
+    width: 310px;
     background-color: #0df39b;
     border: black 1px solid;
 }
-
 .img{
     width: 70px;
     height: 70px;  
     position: relative; 
     left: 150px;
 }
-
 .imagen{
     align-content: center;
 }
-
 body{
     background-color: floralwhite;
 }
-
 button{
     background-color:#0df39b; 
     color: black;
 }
-
 .vacio{
     align-content: center;
     position: relative;
     left: 240px;
+}
+@media(min-width:576px){
+    header{
+        height: 100px;
+    }
+    aside,section{
+        height: 400px;
+    }
+    footer{
+        height: 300px;
+    }
+}
+@media(min-width:768px){
+    header,
+    aside,
+    section{
+        height: 400px;
+    }
 }

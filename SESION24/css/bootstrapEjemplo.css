@@ -1,0 +1,39 @@
+header{
+    background-color: blueviolet;
+    height: 150px;
+}
+nav{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+section{
+    background-color: indigo;
+    width: 50%;
+}
+aside{
+    background-color: darkmagenta;
+    width: 25%;
+}
+footer{
+    background-color: darkorchid;
+    height: 100px;
+}
+nav,aside,section{
+    float: left;
+    height: 350px;
+}
+@media(min-width:576px){
+    nav{
+        height: 70px;
+    }
+    aside,section{
+        height: 300px;
+    }
+}
+@media(min-width:768px){
+    nav,
+    aside,
+    section{
+        height: 460px;
+    }
+}
